@@ -28,7 +28,6 @@ Create a `.scss` file (e.g., `assets/style.scss`), with the following:
 @import 'bootstrap';
 
 // (Your custom CSS Here)
-end
 ```
 
 When your site is built, Jekyll will automatically add the Bootstrap framework before it renders your site's css. In the above example, the resulting file would be `assets/style.css` with Bootstrap's CSS followed by your own.
