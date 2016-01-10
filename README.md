@@ -2,6 +2,8 @@
 
 *A plugin to add the [Twitter Bootstrap](https://github.com/twbs/bootstrap) framework to your Jekyll site.*
 
+[![Build Status](https://travis-ci.org/benbalter/jekyll-bootstrap-sass.svg)](https://travis-ci.org/benbalter/jekyll-bootstrap-sass)
+
 ## Installation
 
 Add the following to your site's `Gemfile`:
