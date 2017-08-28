@@ -1,11 +1,11 @@
 require 'jekyll-bootstrap-sass/version'
 require 'find'
 
-# Require bootstrap-sass to add bootstrap to SaSS's load path
-require 'bootstrap-sass'
+# Require bootstrap to add bootstrap to SaSS's load path
+require 'bootstrap'
 
 module Jekyll
-  module BootstrapSass
+  module Bootstrap
     class Generator < Jekyll::Generator
       def generate(site)
         @site = site
@@ -51,7 +51,7 @@ module Jekyll
         asset_files
       end
 
-      # Absolute path to bootstrap-sass's vendored static assets
+      # Absolute path to bootstrap's vendored static assets
       def assets_path
         @assets_path ||= Bootstrap.assets_path
       end

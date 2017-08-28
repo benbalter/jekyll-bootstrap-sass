@@ -3,7 +3,7 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'jekyll'
 require 'fileutils'
 require 'jekyll-bootstrap-sass'
-require 'bootstrap-sass/bootstrap-sass'
+require 'bootstrap/bootstrap'
 
 TEST_DIR = File.dirname(__FILE__)
 TMP_DIR  = File.expand_path('../tmp', TEST_DIR)

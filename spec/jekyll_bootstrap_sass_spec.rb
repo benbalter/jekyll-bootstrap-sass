@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Jekyll::BootstrapSass do
+describe Jekyll::Bootstrap do
   let(:config) { {} }
   before(:each) do
     init_source_and_dest
@@ -12,6 +12,7 @@ describe Jekyll::BootstrapSass do
   let(:output) { File.open(stylesheet).read }
 
   it 'has a version number' do
+    puts Bootstrap::VERSION
     expect(Jekyll::BootstrapSass::VERSION).not_to be nil
   end
 
